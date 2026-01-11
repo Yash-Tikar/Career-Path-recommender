@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <h2 id="form-title">Registration</h2>
+
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+
+        <button id="submitBtn" onclick="register()">Register</button>
+
+        <p class="small-text">or register with social platforms</p>
+
+        <div class="social">
+            <span>G</span>
+            <span>f</span>
+            <span>in</span>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <div class="right">
+        <h1>Welcome Back!</h1>
+        <p>Already have an account?</p>
+        <button class="outline" onclick="showLogin()">Login</button>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
